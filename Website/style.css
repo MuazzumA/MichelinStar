@@ -2,6 +2,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 .section1 {
@@ -23,7 +24,7 @@ body {
     h1 {
         font-family: 'Young Serif', serif;
         color: white;
-        font-size: 65px;
+        font-size: 55px;
         margin-bottom: 10px;
         border-bottom: 3px solid white; /* Add a border-bottom line */
     }
@@ -31,7 +32,7 @@ body {
     .slogan {
         font-family: 'Young Serif', serif;
         color: white;
-        font-size: 23px;
+        font-size: 20px;
         margin-top: 20px; /* Adjust as needed */
         margin-bottom: 10px; /* Add margin to create space between slogan and border line */
 
@@ -41,7 +42,7 @@ body {
     .additional-text {
         font-family: 'Young Serif', serif;
         color: white;
-        font-size: 23px;
+        font-size: 20px;
         margin-top: 20px; /* Adjust as needed */
         text-shadow: 2px 2px 4px black;
     }
@@ -63,15 +64,15 @@ body {
     background-size: cover;
     padding-top: 1%;
     padding-bottom: 1%;
-    padding-right: 15%;
-    padding-left: 15%;
+    padding-right: 12%;
+    padding-left: 12%;
     position: sticky; /* Make the navbar sticky */
     top: 0; /* Stick to the top of the viewport */
 }
 
 .logo {
     padding-left: 20px;
-    font-size: 34px;
+    font-size: 24px;
     text-shadow: 2px 2px 4px black;
 }
 
@@ -81,7 +82,7 @@ body {
 
 .navbar ul {
     display: flex;
-    font-size: 26px;
+    font-size: 22px;
     text-shadow: 2px 2px 4px black;
 }
 
@@ -96,7 +97,7 @@ body {
 }
 
 .section2 {
-    height: 100vh;
+    height: 65vh;
     background-color: black;
     margin-top: -20px; /* Adjust this value as needed */
     padding-top: 20px; /* This padding compensates for the negative margin */
@@ -106,13 +107,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items:center;
-    max-width: 1300px; /* Adjust as needed */
-    margin: 0px 50px;
+    max-width: 1900px; /* Adjust as needed */
+    margin: 0px 40px;
 }
 
 h2{
     text-align: center;
-    font-size: 45px;
+    font-size: 40px;
     color: white;
     text-shadow: 2px 2px 4px black;
 }
@@ -126,15 +127,14 @@ h2{
 
 .food-images {
     display: flex;
-    flex-direction: column;
-    max-width: 60%; /* Ensure it doesn't overflow the container */
-
+    max-width: 40%; /* Ensure it doesn't overflow the container */
     /* Align items to the start of the flex container */
     align-items: flex-start;
 }
 
 .food-images img {
-    max-width: 75%; /* Set the maximum width of each image */
+    max-width: 50%; /* Set the maximum width of each image */
+    margin-left: 20%;
     height: auto; /* Maintain aspect ratio */
 }
 
@@ -147,6 +147,19 @@ h2{
     font-size: 20px;
     line-height: 1.5;
     margin-top: 5px;
+}
+
+#map-container {
+    width: 40%;
+    height: 50vh;
+    float: right;
+    padding-right: 7%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#map {
+    height: 100%;
 }
 
 
