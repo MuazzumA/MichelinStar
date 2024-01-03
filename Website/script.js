@@ -34,7 +34,7 @@ function initMap() {
     ];
 
     var customIcon = L.icon({
-        iconUrl: 'images/mapmarker.png', // replace with marker image
+        iconUrl: 'Website/images/mapmarker.png', // replace with marker image
         iconSize: [83, 83],
         iconAnchor: [16, 32],
         popupAnchor: [0, -32]
