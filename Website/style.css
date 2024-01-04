@@ -141,6 +141,7 @@ h2{
 .text-container {
     max-width: 100%; /* Adjust as needed */
     color: white;
+    margin-bottom: 3%;
 }
 
 .text-container p {
@@ -149,10 +150,10 @@ h2{
     margin-top: 5px;
 }
 
-
 #map-container {
     width: 100%;
     height: 50vh;
+    margin-top: 5%;
 }
 
 #map {
