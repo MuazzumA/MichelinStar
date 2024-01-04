@@ -24,7 +24,7 @@ body {
     h1 {
         font-family: 'Young Serif', serif;
         color: white;
-        font-size: 55px;
+        font-size: 50px;
         margin-bottom: 10px;
         border-bottom: 3px solid white; /* Add a border-bottom line */
     }
@@ -32,7 +32,7 @@ body {
     .slogan {
         font-family: 'Young Serif', serif;
         color: white;
-        font-size: 20px;
+        font-size: 15px;
         margin-top: 20px; /* Adjust as needed */
         margin-bottom: 10px; /* Add margin to create space between slogan and border line */
 
@@ -42,7 +42,7 @@ body {
     .additional-text {
         font-family: 'Young Serif', serif;
         color: white;
-        font-size: 20px;
+        font-size: 14px;
         margin-top: 20px; /* Adjust as needed */
         text-shadow: 2px 2px 4px black;
     }
@@ -72,7 +72,7 @@ body {
 
 .logo {
     padding-left: 20px;
-    font-size: 24px;
+    font-size: 22px;
     text-shadow: 2px 2px 4px black;
 }
 
@@ -82,7 +82,7 @@ body {
 
 .navbar ul {
     display: flex;
-    font-size: 22px;
+    font-size: 20px;
     text-shadow: 2px 2px 4px black;
 }
 
@@ -97,7 +97,7 @@ body {
 }
 
 .section2 {
-    height: 65vh;
+    height: 60vh;
     background-color: black;
     margin-top: -20px; /* Adjust this value as needed */
     padding-top: 20px; /* This padding compensates for the negative margin */
@@ -145,7 +145,7 @@ h2{
 }
 
 .text-container p {
-    font-size: 20px;
+    font-size: 17px;
     line-height: 1.5;
     margin-top: 5px;
 }
@@ -182,6 +182,7 @@ h2{
     color: wheat;
     text-align: center;
 }
+
 
 /*animation*/
 span{
