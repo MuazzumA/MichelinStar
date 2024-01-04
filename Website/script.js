@@ -43,9 +43,12 @@ function initMap() {
 
     restaurants.forEach(function (restaurant) {
         var marker = L.marker(restaurant.location, { icon: customIcon }).addTo(map);
-        marker.bindPopup(`<b>${restaurant.name}</b><br>${restaurant.address}`).openPopup();
-    });
 
+        marker.on('click', function () {
+            updateCard(restaurant);
+        });
+
+    });
         // fit the map to a bounding box around New York City
         var bounds = [
             [40.4774, -74.2591], // Southwest coordinates of NYC
@@ -53,6 +56,17 @@ function initMap() {
         ];
     
         map.fitBounds(bounds);
+}
+
+function updateCard(restaurant) {
+    var cardName = document.getElementById('card-name');
+    var cardAddress = document.getElementById('card-address');
+
+    if (cardName && cardAddress) {
+        cardName.innerText = restaurant.name;
+        cardAddress.innerText = restaurant.address;
+        // Update more card details as needed
+    }
 }
 
 // Call the initMap function when the document is ready
